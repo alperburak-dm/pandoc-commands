@@ -22,6 +22,8 @@ Bu komut:
 - `giris.md`, `gelisme.md` ve `sonuc.md` dosyalarını sırasıyla okur.
 - `-o cikti.docx`: Bu üç dosyayı birleştirerek `cikti.docx` adında tek bir Word belgesi oluşturur. `-o` parametresi, "output" yani çıktı dosyasını belirtmek için kullanılır.
 
+  ÖNEMLİ NOT: .md formatındaki dosya isimlerinde boşluk BULUNMAMASI gerekmektedir.
+
 ## 3. Gelişmiş Seçenekler ve Örnek Kullanım
 
 `pandoc`'un işlevselliğini artıran birçok parametre bulunmaktadır. İşte en sık kullanılanlardan bazıları:
@@ -41,4 +43,5 @@ Bu komutun açıklaması:
 1. `trino_nessie_guide.md`, `gitea_https_deployment_guide1.md` ve `keycloak_kubernetes_guide-1.md` dosyaları belirtilen sırayla okunur.
 2. `--file-scope` parametresi sayesinde her dosyanın başlık yapısı ve iç referansları korunur.
 3. `--toc` parametresi ile birleştirilmiş belgenin en başına bir "İçindekiler" bölümü eklenir.
+
 4. `-o birlestirilmis_rehber.docx` ile sonuç, `birlestirilmis_rehber.docx` adında bir dosyaya yazdırılır.
